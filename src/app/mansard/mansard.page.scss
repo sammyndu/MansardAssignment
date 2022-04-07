@@ -1,0 +1,67 @@
+.pink-bg {
+    height:200px;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    //background-color:#f54071;
+    background-image: linear-gradient(to right, #f54071 50% , #df436c 50%);
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+
+.pink-bg-blur {
+    //top: 0;
+    //position: absolute;
+    height:180px;
+    margin-left: 20%;
+    width: 50%;
+    background-color:#f54071;
+    //background-color:black;
+    opacity: 1;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 100%;
+
+}
+
+.header-content {
+    width: 100%;
+    position: relative;
+    visibility:inherit;
+    z-index: 2;
+    padding: 10px 20px;
+   color: white;
+   display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    padding: 10px;
+}
+
+#divider {
+    border-top: 1px solid grey;
+    // --inner-padding-bottom: 0px;
+    // --inner-padding-end: 0px;
+    // --inner-padding-start: 0px;
+    // --inner-padding-top: 0px;
+    // --padding-bottom: 0px;
+    // --padding-end: 0px;
+    // --padding-start: 0px;
+    // --padding-top: 0px;
+}
+
+.button {
+    --background: #f54071
+}
+
+body {
+    background-color: #f54071;
+}
+ion-avatar {
+    --border-radius: 0px;
+}
+
+ion-content {
+    --background: #f8f9fb; // Replace this with color of your choice
+  }
